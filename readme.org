@@ -1,0 +1,16 @@
+#+STARTUP: nofold
+#+HTML: <div align="center">
+
+* 4PDA Metro Style for Stylus
+[[https://raw.githubusercontent.com/OneGameKoTT/4pda-metro/main/4pda.user.css][https://img.shields.io/badge/Stylus-Install-%23f67.svg?longCache=true&style=flat]]
+
+Custom style for Stylis or alternative
+
+#+HTML: </div>
+
+* Preview:
+
+#+HTML: <img src="https://raw.githubusercontent.com/OneGameKoTT/4pda-metro/main/padoru1.jpg" alt="Preview 1">
+#+HTML: <img src="https://raw.githubusercontent.com/OneGameKoTT/4pda-metro/main/padoru2.jpg" alt="Preview 2">
+#+HTML: <img src="https://raw.githubusercontent.com/OneGameKoTT/4pda-metro/main/padoru3.png" alt="Preview 3">
+#+HTML: <img src="https://raw.githubusercontent.com/OneGameKoTT/4pda-metro/main/padoru4.png" alt="Preview 4">
