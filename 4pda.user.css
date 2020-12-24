@@ -1,0 +1,202 @@
+/* ==UserStyle==
+@name         4PDA Style
+@namespace    github.com/OneGameKoTT/4pda-metro
+@description  4PDA Style
+@author       KoTT <i.misterok21@gmail.com> (https://github.com/OneGameKoTT/4pda-metro)
+@homepageURL  https://github.com/OneGameKoTT/4pda-metro
+@updateURL    https://github.com/OneGameKoTT/4pda-metro/raw/main/4pda.user.css
+@version      0.1
+@license      MIT
+==/UserStyle== */
+
+@-moz-document regexp("https?://4pda.ru/forum/.*") {
+body{
+    color: #eee;
+    background: #444;
+}
+
+#userlinks, #userlinksguest{
+    border: 2px solid #f67;
+    padding: 0;
+    background: #444;
+}
+#userlinks p.home, #userlinksguest p.home{
+    padding: 0;
+}
+#userlinks p, #userlinksguest p{
+    padding: 0;
+    word-spacing: -1em;
+    
+}
+#userlinks p a, #userlinksguest p a, .usercp_menu, .usercp_menu_out{
+    padding: 10px;
+    color: #eee;
+    text-decoration: none;
+    display: inline-block !important;
+    word-spacing: normal;
+}
+#userlinks p a:hover, #userlinksguest p a:hover, .usercp_menu{
+    background: #f67;
+}
+.usercp_menu, .usercp_menu_out{
+    border: none;
+    height: auto;
+}
+.popupmenu, .popupmenu-new, .popmenubutton-new, .popmenubutton{
+    background: #444;
+    border: 2px solid #f67;
+}
+.popupmenu-item-last, .popupmenu-item{
+    padding: 0;
+    border: none;
+}
+.popmenubutton a:link, .popmenubutton a:visited, .popmenubutton-new a:link, .popmenubutton-new a:visited, .popupmenu-item a:link, .popupmenu-item a:visited, .popupmenu-item-last a:link, .popupmenu-item-last a:visited{
+    color: #eee;
+    padding: 10px;
+    display: block;
+}
+.popmenubutton a:hover, .popmenubutton-new a:hover, .popupmenu-item a:hover, .popupmenu-item-last a:hover{
+    background: #f67;
+}
+
+.borderwrap, .borderwrapm{
+    background: none;
+    border: none;
+}
+
+.borderwrap h3, .maintitle, .maintitlecollapse{
+    border: none;
+    background: #f67;
+}
+
+.maintitle a:link, .maintitle a:visited, .maintitlecollapse a:link, .maintitlecollapse a:visited{
+    padding: 5px 0;
+    display: inline-block
+}
+
+div.borderwrap div.maintitle p img, div.borderwrap div.maintitlecollapse p img{
+    padding: 5px 0;
+}
+
+table th, .borderwrap table th, .subtitle, .subtitlediv, .postlinksbar, .darkrow1{
+    background: #f67;
+    color: #eee;
+    border: none;
+}
+
+.row2, .row1, .formtable td.formtitle, .formsubtitle, .copyright{
+    background: none;
+}
+
+a:link, a:visited, a:active, .forumdesc, .forumdesc a:link, .forumdesc a:visited, .forumdesc a:active, .borderwrap table th a:link, .subtitle a:link, .subtitlediv a:link, .borderwrap table th a:visited, .subtitle a:visited, .subtitlediv a:visited, .borderwrap table th a:active, .subtitle a:active, .subtitlediv a:active, .borderwrap table th a:hover, .subtitle a:hover, .subtitlediv a:hover, table.ipbtable, tr.ipbtable, td.ipbtable, .formsubtitle{
+    color: #eee;
+}
+
+hr.sfr{
+    opacity: 0;
+}
+
+.catend{
+    display: none;
+}
+
+.toplinks span{
+    background: #444;
+    border: 2px solid #f67;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    word-spacing: -1em;
+    color: transparent;
+}
+
+.toplinks span a{
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    word-spacing: normal;
+    color: #eee;
+}
+.toplinks span a:hover{
+    background: #f67;
+}
+
+#gfooter{
+    background: #444;
+    border: 2px solid #f67;
+}
+
+#gfooter a:hover{
+    background: #f67;
+}
+
+#gfooter a:link, #gfooter a:visited{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.ipb-top-left-link a:link, .ipb-top-left-link a:visited, .ipb-top-right-link a:link, .ipb-top-right-link a:visited, #navstrip a:link, #navstrip a:visited{
+    color: #eee;
+}
+
+.ipb-top-left-link a:hover, .ipb-top-left-link a:active, .ipb-top-right-link a:hover, .ipb-top-right-link a:active, #navstrip a:hover, #navstrip a:active{
+    color: #f67;
+}
+
+#logostrip, .post2, .bg3, .post1, .bg1{
+    background: none;
+}
+
+.activeusers, .bar, .barb, .barc{
+    background: #f67;
+    border: none;
+}
+
+.popmenubutton-new, .popmenubutton{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    padding: 0;
+}
+
+.popmenubutton-new a, .popmenubutton a{
+    padding: 5px 25px !important;
+}
+
+.popmenubutton-new img, .popmenubutton img{
+    padding: 0 5px 0 0 !important;
+}
+
+.popmenubutton:hover, .popmenubutton-new:hover, .popupmenu-item:hover, .popupmenu .popupmenu-item-last:hover{
+    background: #f67 !important;
+}
+
+.pagelink, .pagelinklast, .pagecurrent, .minipagelink, .minipagelinklast{
+    background: #f67;
+    border: none;
+}
+
+td.formbuttonrow, .pformstrip, .borderwrap p.formbuttonrow, .borderwrap p.formbuttonrow1{
+    background: #f67 !important;
+    border: none;
+}
+
+.g-btn.blue{
+    border: 2px solid #f67;
+    background: #444;
+    border-radius: 0;
+    color: #eee;
+}
+
+.g-btn.blue:hover{
+    background: #f67;
+}
+
+.jlx9kTVIL7QXeFv2z1eLXqBz0 > li{
+    background: none;
+}
+
+#footer, .footer-nav, #ucpmenu, #ucpcontent, .plainborder, .tablefill, .tablepad{
+    background: none;
+}
+}
