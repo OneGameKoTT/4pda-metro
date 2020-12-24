@@ -4,7 +4,7 @@
 * 4PDA Metro Style for Stylus
 [[https://raw.githubusercontent.com/OneGameKoTT/4pda-metro/main/4pda.user.css][https://img.shields.io/badge/Stylus-Install-%23f67.svg?longCache=true&style=flat]]
 
-Custom style for Stylis or alternative
+Custom style for Stylus or alternative
 
 #+HTML: </div>
 
