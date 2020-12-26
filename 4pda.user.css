@@ -5,20 +5,20 @@
 @author       KoTT <i.misterok21@gmail.com> (https://github.com/OneGameKoTT/4pda-metro)
 @homepageURL  https://github.com/OneGameKoTT/4pda-metro
 @updateURL    https://github.com/OneGameKoTT/4pda-metro/raw/main/4pda.user.css
-@version      1.0.0
+@version      1.0.1
 @license      MIT
 ==/UserStyle== */
 
 @-moz-document regexp("https?://4pda.ru/forum/.*") {
 body{
     color: #eee;
-    background: #444;
+    background: #222;
 }
 
 #userlinks, #userlinksguest{
     border: 2px solid #f67;
     padding: 0;
-    background: #444;
+    background: #222;
 }
 #userlinks p.home, #userlinksguest p.home{
     padding: 0;
@@ -43,7 +43,7 @@ body{
     height: auto;
 }
 .popupmenu, .popupmenu-new, .popmenubutton-new, .popmenubutton{
-    background: #444;
+    background: #222;
     border: 2px solid #f67;
 }
 .popupmenu-item-last, .popupmenu-item{
@@ -101,7 +101,7 @@ hr.sfr{
 }
 
 .toplinks span{
-    background: #444;
+    background: #222;
     border: 2px solid #f67;
     padding: 0;
     margin: 0;
@@ -122,7 +122,7 @@ hr.sfr{
 }
 
 #gfooter{
-    background: #444;
+    background: #222;
     border: 2px solid #f67;
 }
 
@@ -183,7 +183,7 @@ td.formbuttonrow, .pformstrip, .borderwrap p.formbuttonrow, .borderwrap p.formbu
 
 .g-btn.blue{
     border: 2px solid #f67;
-    background: #444;
+    background: #222;
     border-radius: 0;
     color: #eee;
 }
