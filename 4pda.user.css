@@ -5,7 +5,7 @@
 @author       KoTT <i.misterok21@gmail.com> (https://github.com/OneGameKoTT/4pda-metro)
 @homepageURL  https://github.com/OneGameKoTT/4pda-metro
 @updateURL    https://github.com/OneGameKoTT/4pda-metro/raw/main/4pda.user.css
-@version      1.0.1
+@version      1.0.2
 @license      MIT
 ==/UserStyle== */
 
@@ -16,7 +16,7 @@ body{
 }
 
 #userlinks, #userlinksguest{
-    border: 2px solid #f67;
+    border: 2px solid #701b24;
     padding: 0;
     background: #222;
 }
@@ -36,7 +36,7 @@ body{
     word-spacing: normal;
 }
 #userlinks p a:hover, #userlinksguest p a:hover, .usercp_menu{
-    background: #f67;
+    background: #701b24;
 }
 .usercp_menu, .usercp_menu_out{
     border: none;
@@ -44,7 +44,7 @@ body{
 }
 .popupmenu, .popupmenu-new, .popmenubutton-new, .popmenubutton{
     background: #222;
-    border: 2px solid #f67;
+    border: 2px solid #701b24;
 }
 .popupmenu-item-last, .popupmenu-item{
     padding: 0;
@@ -56,7 +56,7 @@ body{
     display: block;
 }
 .popmenubutton a:hover, .popmenubutton-new a:hover, .popupmenu-item a:hover, .popupmenu-item-last a:hover{
-    background: #f67;
+    background: #701b24;
 }
 
 .borderwrap, .borderwrapm{
@@ -66,7 +66,7 @@ body{
 
 .borderwrap h3, .maintitle, .maintitlecollapse{
     border: none;
-    background: #f67;
+    background: #701b24;
 }
 
 .maintitle a:link, .maintitle a:visited, .maintitlecollapse a:link, .maintitlecollapse a:visited{
@@ -79,7 +79,7 @@ div.borderwrap div.maintitle p img, div.borderwrap div.maintitlecollapse p img{
 }
 
 table th, .borderwrap table th, .subtitle, .subtitlediv, .postlinksbar, .darkrow1{
-    background: #f67;
+    background: #701b24;
     color: #eee;
     border: none;
 }
@@ -102,7 +102,7 @@ hr.sfr{
 
 .toplinks span{
     background: #222;
-    border: 2px solid #f67;
+    border: 2px solid #701b24;
     padding: 0;
     margin: 0;
     display: inline-block;
@@ -123,11 +123,11 @@ hr.sfr{
 
 #gfooter{
     background: #222;
-    border: 2px solid #f67;
+    border: 2px solid #701b24;
 }
 
 #gfooter a:hover{
-    background: #f67;
+    background: #701b24;
 }
 
 #gfooter a:link, #gfooter a:visited{
@@ -148,7 +148,7 @@ hr.sfr{
 }
 
 .activeusers, .bar, .barb, .barc{
-    background: #f67;
+    background: #701b24;
     border: none;
 }
 
@@ -168,16 +168,16 @@ hr.sfr{
 }
 
 .popmenubutton:hover, .popmenubutton-new:hover, .popupmenu-item:hover, .popupmenu .popupmenu-item-last:hover{
-    background: #f67 !important;
+    background: #701b24 !important;
 }
 
 .pagelink, .pagelinklast, .pagecurrent, .minipagelink, .minipagelinklast{
-    background: #f67;
+    background: #701b24;
     border: none;
 }
 
 td.formbuttonrow, .pformstrip, .borderwrap p.formbuttonrow, .borderwrap p.formbuttonrow1{
-    background: #f67 !important;
+    background: #701b24 !important;
     border: none;
 }
 
@@ -189,7 +189,7 @@ td.formbuttonrow, .pformstrip, .borderwrap p.formbuttonrow, .borderwrap p.formbu
 }
 
 .g-btn.blue:hover{
-    background: #f67;
+    background: #701b24;
 }
 
 .jlx9kTVIL7QXeFv2z1eLXqBz0 > li{
