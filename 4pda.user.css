@@ -5,7 +5,7 @@
 @author       KoTT <i.misterok21@gmail.com> (https://github.com/OneGameKoTT/4pda-metro)
 @homepageURL  https://github.com/OneGameKoTT/4pda-metro
 @updateURL    https://github.com/OneGameKoTT/4pda-metro/raw/main/4pda.user.css
-@version      1.0.3
+@version      1.0.4
 @license      MIT
 ==/UserStyle== */
 
@@ -206,5 +206,8 @@ td.formbuttonrow, .pformstrip, .borderwrap p.formbuttonrow, .borderwrap p.formbu
 }
 .hh4plUFxCp .list-group .list-group-item.active, .sidebar .list-group .list-group-item.active, .list-group .list-group-item:hover, .list-group .list-group-item:focus, .list-group .list-group-item:active{
     background: #701b24;
+}
+.form-input{
+    background: #444;
 }
 }
