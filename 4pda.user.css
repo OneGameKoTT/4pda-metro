@@ -5,7 +5,7 @@
 @author       KoTT <i.misterok21@gmail.com> (https://github.com/OneGameKoTT/4pda-metro)
 @homepageURL  https://github.com/OneGameKoTT/4pda-metro
 @updateURL    https://github.com/OneGameKoTT/4pda-metro/raw/main/4pda.user.css
-@version      1.0.2
+@version      1.0.3
 @license      MIT
 ==/UserStyle== */
 
@@ -171,7 +171,7 @@ hr.sfr{
     background: #701b24 !important;
 }
 
-.pagelink, .pagelinklast, .pagecurrent, .minipagelink, .minipagelinklast{
+.pagelink, .pagelinklast, .pagecurrent, .minipagelink, .minipagelinklast, .btn{
     background: #701b24;
     border: none;
 }
@@ -196,7 +196,14 @@ td.formbuttonrow, .pformstrip, .borderwrap p.formbuttonrow, .borderwrap p.formbu
     background: none;
 }
 
-#footer, .footer-nav, #ucpmenu, #ucpcontent, .plainborder, .tablefill, .tablepad{
+#footer, .footer-nav, #ucpmenu, #ucpcontent, .plainborder, .tablefill, .tablepad, .footer, .thread-list .list-group-item:hover, .thread-list .list-group-item:focus, .thread-list .list-group-item:active, .form-bg{
     background: none;
 }
+.list-group .list-group-item, .hh4plUFxCp, .sidebar, .navbar, .header{
+    background: none;
+    border-bottom: none;
+    border: none;
+}
+.hh4plUFxCp .list-group .list-group-item.active, .sidebar .list-group .list-group-item.active, .list-group .list-group-item:hover, .list-group .list-group-item:focus, .list-group .list-group-item:active{
+    background: #701b24;
 }
