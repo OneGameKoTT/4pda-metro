@@ -5,42 +5,109 @@
 @author       KoTT <i.misterok21@gmail.com> (https://github.com/OneGameKoTT/4pda-metro)
 @homepageURL  https://github.com/OneGameKoTT/4pda-metro
 @updateURL    https://github.com/OneGameKoTT/4pda-metro/raw/main/4pda.user.css
-@version      1.0.5
+@version      1.0.6
 @license      MIT
 ==/UserStyle== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=block');
 
 @-moz-document regexp("https?://4pda.ru/forum/.*") {
     body{
         color: #eee;
         background: #222;
     }
+    .hx4Y0GcqgY015ONvS0iJNFu table{
+        display: none;
+    }
     .rZw9W1v7RlrZFwl{
         display: none;
     }
-
+    .user_home{
+        height: 72px;
+        display: block;
+        line-height: 72px;
+        text-align: center;
+        top: 0;
+    }
+    #submenu{
+        position: absolute;
+        z-index: 2;
+        line-height: 72px;
+        height: 72px;
+        right: 15px;
+    }
     #userlinks, #userlinksguest{
         border: none;
         border-bottom: 2px solid #701b24;
         padding: 0;
         background: #222;
+        position: relative;
+        height: 72px;
+        text-align: center;
     }
     #userlinks p.home, #userlinksguest p.home{
         padding: 0;
+        float: none;
     }
     #userlinks p, #userlinksguest p{
         padding: 0;
         word-spacing: -1em;
-
+        display: inline-block;
+    }
+    #userlinks p:not(.home){
+        position: absolute;
+        right: 15px;
+        color: transparent;
+    }
+    #userlinks p:not(.home) a{
+        width: 72px;
+        position: relative;
+        font-family: 'Teko', sans-serif;
+        color: transparent;
+    }
+    #userlinks p:not(.home) a::before{
+        content:'';
+        filter: invert(1);
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #userlinks p:not(.home) a:nth-child(1)::before{
+        background: url("https://www.svgrepo.com/show/133673/notification-bell.svg");
+    }
+    #userlinks p:not(.home) a:nth-child(3)::before{
+        background: url("https://www.svgrepo.com/show/137742/favorite.svg");
+    }
+    #userlinks p:not(.home) a:nth-child(2)::before{
+        background: url("https://www.svgrepo.com/show/39559/message.svg");
     }
     #userlinks p a, #userlinksguest p a, .usercp_menu, .usercp_menu_out{
-        padding: 10px;
         color: #eee;
         text-decoration: none;
         display: inline-block !important;
         word-spacing: normal;
+        height: 72px;
+        line-height: 72px;
+        width: 128px;
+        text-align: center;
+        transition: .1s;
     }
     #userlinks p a:hover, #userlinksguest p a:hover, .usercp_menu{
         background: #701b24;
+    }
+    #userlinks::before{
+        content: '4PDA';
+        color: #0377fc;
+        font-family: 'Poller One', cursive;
+        font-size: 48px;
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translateY(-50%);
     }
     .usercp_menu, .usercp_menu_out{
         border: none;
