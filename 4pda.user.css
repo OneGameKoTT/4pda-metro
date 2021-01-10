@@ -5,13 +5,16 @@
 @author       KoTT <i.misterok21@gmail.com> (https://github.com/OneGameKoTT/4pda-metro)
 @homepageURL  https://github.com/OneGameKoTT/4pda-metro
 @updateURL    https://github.com/OneGameKoTT/4pda-metro/raw/main/4pda.user.css
-@version      1.0.6
+@version      1.0.7
 @license      MIT
 ==/UserStyle== */
 
 @import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=block');
-
+@font-face{
+    font-family: "Nuko";
+    src: url("https://api.vilafox.xyz/skins/Comb.woff");
+}
 @-moz-document regexp("https?://4pda.ru/forum/.*") {
     body{
         color: #eee;
@@ -63,8 +66,12 @@
     #userlinks p:not(.home) a{
         width: 72px;
         position: relative;
-        font-family: 'Teko', sans-serif;
-        color: transparent;
+        font-family: 'Nuko', sans-serif;
+        text-align: center;
+        font-size: 24px;
+        word-spacing: 24px;
+        line-height: 64px;
+        z-index: 2;
     }
     #userlinks p:not(.home) a::before{
         content:'';
